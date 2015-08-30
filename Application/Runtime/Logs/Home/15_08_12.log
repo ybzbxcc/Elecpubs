@@ -1,0 +1,731 @@
+[ 2015-08-12T08:40:45+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000860s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `webinfo` [ RunTime:0.0018s ]
+SQL: UPDATE `webinfo` SET `webview`=webview+1 WHERE ( id=0 ) [ RunTime:0.0003s ]
+SQL: SELECT * FROM `webinfo`  [ RunTime:0.0002s ]
+SQL: SELECT `title`,`label`,`id` FROM `article` ORDER BY pageview desc LIMIT 4   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `article` ORDER BY time desc LIMIT 0,8   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033316s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033575s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000903s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001169s ]
+
+[ 2015-08-12T08:40:45+08:00 ] ::1 /Public/images/logo2.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000795s ]
+
+[ 2015-08-12T08:40:45+08:00 ] ::1 /Public/images/logo2.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+
+[ 2015-08-12T08:40:52+08:00 ] ::1 /article/mcu/17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000710s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0026s ]
+SQL: UPDATE `article` SET `pageview`=pageview+1 WHERE ( id=17 ) [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `webinfo` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `webinfo`  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `article` WHERE ( id=17 )  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`label`,`title` FROM `article` WHERE ( label=2 ) LIMIT 4   [ RunTime:0.0003s ]
+SQL: SELECT `title`,`label`,`id` FROM `article` ORDER BY pageview desc LIMIT 4   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `comment` WHERE ( aid=17 ) ORDER BY time desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000248s ]
+NOTIC: [8] Use of undefined constant comment - assumed 'comment' E:\wamp\www\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 21 行.
+NOTIC: [8] Use of undefined constant praise - assumed 'praise' E:\wamp\www\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014412s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014549s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000638s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000827s ]
+
+[ 2015-08-12T08:40:52+08:00 ] ::1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+
+[ 2015-08-12T08:40:52+08:00 ] ::1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+
+[ 2015-08-12T08:41:14+08:00 ] ::1 /article/mcu/12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000811s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001776s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0030s ]
+SQL: UPDATE `article` SET `pageview`=pageview+1 WHERE ( id=12 ) [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `webinfo` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `webinfo`  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `article` WHERE ( id=12 )  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`label`,`title` FROM `article` WHERE ( label=2 ) LIMIT 4   [ RunTime:0.0003s ]
+SQL: SELECT `title`,`label`,`id` FROM `article` ORDER BY pageview desc LIMIT 4   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `comment` WHERE ( aid=12 ) ORDER BY time desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000302s ]
+NOTIC: [8] Use of undefined constant comment - assumed 'comment' E:\wamp\www\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 21 行.
+NOTIC: [8] Use of undefined constant praise - assumed 'praise' E:\wamp\www\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016483s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016646s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000663s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000809s ]
+
+[ 2015-08-12T08:41:23+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000775s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000925s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `webinfo` [ RunTime:0.0018s ]
+SQL: UPDATE `webinfo` SET `webview`=webview+1 WHERE ( id=0 ) [ RunTime:0.0002s ]
+SQL: SELECT * FROM `webinfo`  [ RunTime:0.0002s ]
+SQL: SELECT `title`,`label`,`id` FROM `article` ORDER BY pageview desc LIMIT 4   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `article` ORDER BY time desc LIMIT 0,8   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000250s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015991s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016153s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000646s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001282s ]
+
+[ 2015-08-12T08:41:26+08:00 ] ::1 /article/electronic/16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001423s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0024s ]
+SQL: UPDATE `article` SET `pageview`=pageview+1 WHERE ( id=16 ) [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `webinfo` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `webinfo`  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `article` WHERE ( id=16 )  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`label`,`title` FROM `article` WHERE ( label=10 ) LIMIT 4   [ RunTime:0.0002s ]
+SQL: SELECT `title`,`label`,`id` FROM `article` ORDER BY pageview desc LIMIT 4   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `comment` WHERE ( aid=16 ) ORDER BY time desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000274s ]
+NOTIC: [8] Use of undefined constant comment - assumed 'comment' E:\wamp\www\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 21 行.
+NOTIC: [8] Use of undefined constant praise - assumed 'praise' E:\wamp\www\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014980s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015140s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000635s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000776s ]
+
+[ 2015-08-12T08:41:35+08:00 ] ::1 /article/electronic/15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000647s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002041s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0029s ]
+SQL: UPDATE `article` SET `pageview`=pageview+1 WHERE ( id=15 ) [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `webinfo` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `webinfo`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `article` WHERE ( id=15 )  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`label`,`title` FROM `article` WHERE ( label=10 ) LIMIT 4   [ RunTime:0.0003s ]
+SQL: SELECT `title`,`label`,`id` FROM `article` ORDER BY pageview desc LIMIT 4   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `comment` WHERE ( aid=15 ) ORDER BY time desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000352s ]
+NOTIC: [8] Use of undefined constant comment - assumed 'comment' E:\wamp\www\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 21 行.
+NOTIC: [8] Use of undefined constant praise - assumed 'praise' E:\wamp\www\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018162s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018384s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000800s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001296s ]
+
+[ 2015-08-12T08:42:24+08:00 ] ::1 /article/electronic/15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000958s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0040s ]
+SQL: UPDATE `article` SET `pageview`=pageview+1 WHERE ( id=15 ) [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `webinfo` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `webinfo`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `article` WHERE ( id=15 )  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`label`,`title` FROM `article` WHERE ( label=10 ) LIMIT 4   [ RunTime:0.0003s ]
+SQL: SELECT `title`,`label`,`id` FROM `article` ORDER BY pageview desc LIMIT 4   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `comment` WHERE ( aid=15 ) ORDER BY time desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000295s ]
+NOTIC: [8] Use of undefined constant comment - assumed 'comment' E:\wamp\www\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 21 行.
+NOTIC: [8] Use of undefined constant praise - assumed 'praise' E:\wamp\www\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018564s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018769s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001610s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001903s ]
+
+[ 2015-08-12T08:42:58+08:00 ] ::1 /article/electronic/15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000884s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001116s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0040s ]
+SQL: UPDATE `article` SET `pageview`=pageview+1 WHERE ( id=15 ) [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `webinfo` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `webinfo`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `article` WHERE ( id=15 )  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`label`,`title` FROM `article` WHERE ( label=10 ) LIMIT 4   [ RunTime:0.0015s ]
+SQL: SELECT `title`,`label`,`id` FROM `article` ORDER BY pageview desc LIMIT 4   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `comment` WHERE ( aid=15 ) ORDER BY time desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000261s ]
+NOTIC: [8] Use of undefined constant comment - assumed 'comment' E:\wamp\www\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 21 行.
+NOTIC: [8] Use of undefined constant praise - assumed 'praise' E:\wamp\www\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018769s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018913s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000694s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000884s ]
+
+[ 2015-08-12T08:43:20+08:00 ] ::1 /article/electronic/15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001260s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0038s ]
+SQL: UPDATE `article` SET `pageview`=pageview+1 WHERE ( id=15 ) [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `webinfo` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `webinfo`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `article` WHERE ( id=15 )  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`label`,`title` FROM `article` WHERE ( label=10 ) LIMIT 4   [ RunTime:0.0003s ]
+SQL: SELECT `title`,`label`,`id` FROM `article` ORDER BY pageview desc LIMIT 4   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `comment` WHERE ( aid=15 ) ORDER BY time desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000251s ]
+NOTIC: [8] Use of undefined constant comment - assumed 'comment' E:\wamp\www\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 21 行.
+NOTIC: [8] Use of undefined constant praise - assumed 'praise' E:\wamp\www\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019632s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019810s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000993s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001237s ]
+
+[ 2015-08-12T08:44:03+08:00 ] ::1 /article/electronic/15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000841s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0027s ]
+SQL: UPDATE `article` SET `pageview`=pageview+1 WHERE ( id=15 ) [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `webinfo` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `webinfo`  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `article` WHERE ( id=15 )  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`label`,`title` FROM `article` WHERE ( label=10 ) LIMIT 4   [ RunTime:0.0003s ]
+SQL: SELECT `title`,`label`,`id` FROM `article` ORDER BY pageview desc LIMIT 4   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `comment` WHERE ( aid=15 ) ORDER BY time desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000420s ]
+NOTIC: [8] Use of undefined constant comment - assumed 'comment' E:\wamp\www\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 21 行.
+NOTIC: [8] Use of undefined constant praise - assumed 'praise' E:\wamp\www\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019732s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019925s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000972s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001228s ]
+
+[ 2015-08-12T08:46:12+08:00 ] ::1 /article/electronic/15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000954s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0035s ]
+SQL: UPDATE `article` SET `pageview`=pageview+1 WHERE ( id=15 ) [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `webinfo` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `webinfo`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `article` WHERE ( id=15 )  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`label`,`title` FROM `article` WHERE ( label=10 ) LIMIT 4   [ RunTime:0.0004s ]
+SQL: SELECT `title`,`label`,`id` FROM `article` ORDER BY pageview desc LIMIT 4   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `comment` WHERE ( aid=15 ) ORDER BY time desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000553s ]
+NOTIC: [8] Use of undefined constant comment - assumed 'comment' E:\wamp\www\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 21 行.
+NOTIC: [8] Use of undefined constant praise - assumed 'praise' E:\wamp\www\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021183s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001024s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001256s ]
+
+[ 2015-08-12T08:47:16+08:00 ] ::1 /article/electronic/15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001501s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0024s ]
+SQL: UPDATE `article` SET `pageview`=pageview+1 WHERE ( id=15 ) [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `webinfo` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `webinfo`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `article` WHERE ( id=15 )  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`label`,`title` FROM `article` WHERE ( label=10 ) LIMIT 4   [ RunTime:0.0003s ]
+SQL: SELECT `title`,`label`,`id` FROM `article` ORDER BY pageview desc LIMIT 4   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `comment` WHERE ( aid=15 ) ORDER BY time desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000261s ]
+NOTIC: [8] Use of undefined constant comment - assumed 'comment' E:\wamp\www\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 21 行.
+NOTIC: [8] Use of undefined constant praise - assumed 'praise' E:\wamp\www\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022074s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022334s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000956s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000906s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001094s ]
+
+[ 2015-08-12T08:47:29+08:00 ] ::1 /article/electronic/15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000776s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001091s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0024s ]
+SQL: UPDATE `article` SET `pageview`=pageview+1 WHERE ( id=15 ) [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `webinfo` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `webinfo`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `article` WHERE ( id=15 )  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`label`,`title` FROM `article` WHERE ( label=10 ) LIMIT 4   [ RunTime:0.0003s ]
+SQL: SELECT `title`,`label`,`id` FROM `article` ORDER BY pageview desc LIMIT 4   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `comment` WHERE ( aid=15 ) ORDER BY time desc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+NOTIC: [8] Use of undefined constant comment - assumed 'comment' E:\wamp\www\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 21 行.
+NOTIC: [8] Use of undefined constant praise - assumed 'praise' E:\wamp\www\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016066s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016243s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001061s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001297s ]
+
+[ 2015-08-12T08:48:23+08:00 ] ::1 /Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000793s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `webinfo` [ RunTime:0.0021s ]
+SQL: UPDATE `webinfo` SET `webview`=webview+1 WHERE ( id=0 ) [ RunTime:0.0003s ]
+SQL: SELECT * FROM `webinfo`  [ RunTime:0.0002s ]
+SQL: SELECT `title`,`label`,`id` FROM `article` ORDER BY pageview desc LIMIT 4   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `article` ORDER BY time desc LIMIT 0,8   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000248s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015075s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015275s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000947s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001154s ]
+
+[ 2015-08-12T08:48:25+08:00 ] ::1 /article/mcu/17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000770s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0025s ]
+SQL: UPDATE `article` SET `pageview`=pageview+1 WHERE ( id=17 ) [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `webinfo` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `webinfo`  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `article` WHERE ( id=17 )  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`label`,`title` FROM `article` WHERE ( label=2 ) LIMIT 4   [ RunTime:0.0003s ]
+SQL: SELECT `title`,`label`,`id` FROM `article` ORDER BY pageview desc LIMIT 4   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `comment` WHERE ( aid=17 ) ORDER BY time desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000248s ]
+NOTIC: [8] Use of undefined constant comment - assumed 'comment' E:\wamp\www\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 21 行.
+NOTIC: [8] Use of undefined constant praise - assumed 'praise' E:\wamp\www\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014544s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014676s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000947s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001334s ]
+
+[ 2015-08-12T08:48:52+08:00 ] ::1 /article/mcu/17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000646s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0036s ]
+SQL: UPDATE `article` SET `pageview`=pageview+1 WHERE ( id=17 ) [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `webinfo` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `webinfo`  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `article` WHERE ( id=17 )  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`label`,`title` FROM `article` WHERE ( label=2 ) LIMIT 4   [ RunTime:0.0003s ]
+SQL: SELECT `title`,`label`,`id` FROM `article` ORDER BY pageview desc LIMIT 4   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `comment` WHERE ( aid=17 ) ORDER BY time desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000203s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000532s ]
+NOTIC: [8] Use of undefined constant comment - assumed 'comment' E:\wamp\www\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 21 行.
+NOTIC: [8] Use of undefined constant praise - assumed 'praise' E:\wamp\www\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019255s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019426s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001694s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001896s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000753s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000906s ]
+
+[ 2015-08-12T08:49:12+08:00 ] ::1 /article/mcu/17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000798s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001314s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0039s ]
+SQL: UPDATE `article` SET `pageview`=pageview+1 WHERE ( id=17 ) [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `webinfo` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `webinfo`  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `article` WHERE ( id=17 )  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`label`,`title` FROM `article` WHERE ( label=2 ) LIMIT 4   [ RunTime:0.0004s ]
+SQL: SELECT `title`,`label`,`id` FROM `article` ORDER BY pageview desc LIMIT 4   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `comment` WHERE ( aid=17 ) ORDER BY time desc  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000194s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000438s ]
+NOTIC: [8] Use of undefined constant comment - assumed 'comment' E:\wamp\www\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 21 行.
+NOTIC: [8] Use of undefined constant praise - assumed 'praise' E:\wamp\www\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018686s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018829s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001072s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001281s ]
+
+[ 2015-08-12T08:50:22+08:00 ] ::1 /article/mcu/17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000835s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001381s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0028s ]
+SQL: UPDATE `article` SET `pageview`=pageview+1 WHERE ( id=17 ) [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `webinfo` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `webinfo`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `article` WHERE ( id=17 )  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`label`,`title` FROM `article` WHERE ( label=2 ) LIMIT 4   [ RunTime:0.0003s ]
+SQL: SELECT `title`,`label`,`id` FROM `article` ORDER BY pageview desc LIMIT 4   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `comment` WHERE ( aid=17 ) ORDER BY time desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000262s ]
+NOTIC: [8] Use of undefined constant comment - assumed 'comment' E:\wamp\www\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 21 行.
+NOTIC: [8] Use of undefined constant praise - assumed 'praise' E:\wamp\www\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020489s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020731s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001159s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001370s ]
+
+[ 2015-08-12T08:50:56+08:00 ] ::1 /article/mcu/17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000985s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0041s ]
+SQL: UPDATE `article` SET `pageview`=pageview+1 WHERE ( id=17 ) [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `webinfo` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `webinfo`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `article` WHERE ( id=17 )  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`label`,`title` FROM `article` WHERE ( label=2 ) LIMIT 4   [ RunTime:0.0004s ]
+SQL: SELECT `title`,`label`,`id` FROM `article` ORDER BY pageview desc LIMIT 4   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `comment` WHERE ( aid=17 ) ORDER BY time desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000260s ]
+NOTIC: [8] Use of undefined constant comment - assumed 'comment' E:\wamp\www\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 21 行.
+NOTIC: [8] Use of undefined constant praise - assumed 'praise' E:\wamp\www\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019664s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019902s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000765s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000996s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001218s ]
+
+[ 2015-08-12T08:51:33+08:00 ] ::1 /article/mcu/17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000873s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0026s ]
+SQL: UPDATE `article` SET `pageview`=pageview+1 WHERE ( id=17 ) [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `webinfo` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `webinfo`  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `article` WHERE ( id=17 )  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`label`,`title` FROM `article` WHERE ( label=2 ) LIMIT 4   [ RunTime:0.0003s ]
+SQL: SELECT `title`,`label`,`id` FROM `article` ORDER BY pageview desc LIMIT 4   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `comment` WHERE ( aid=17 ) ORDER BY time desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000349s ]
+NOTIC: [8] Use of undefined constant comment - assumed 'comment' E:\wamp\www\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 21 行.
+NOTIC: [8] Use of undefined constant praise - assumed 'praise' E:\wamp\www\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020431s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020633s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000680s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000873s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000869s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001097s ]
+
+[ 2015-08-12T21:48:59+08:00 ] ::1 /Admin/wp-admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000873s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001237s ]
+ERR: 无法加载控制器:Admin
+
+[ 2015-08-12T21:51:20+08:00 ] ::1 /Elegent/wp-admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000988s ]
+ERR: 无法加载控制器:Elegent
+
+[ 2015-08-12T22:06:56+08:00 ] ::1 /Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001422s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `webinfo` [ RunTime:0.0036s ]
+SQL: UPDATE `webinfo` SET `webview`=webview+1 WHERE ( id=0 ) [ RunTime:0.0003s ]
+SQL: SELECT * FROM `webinfo`  [ RunTime:0.0002s ]
+SQL: SELECT `title`,`label`,`id` FROM `article` ORDER BY pageview desc LIMIT 4   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `article` ORDER BY time desc LIMIT 0,8   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000214s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065759s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065951s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.048520s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.048662s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015161s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015323s ]
+
+[ 2015-08-12T22:07:03+08:00 ] ::1 /Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0183s ]
+SQL: SHOW COLUMNS FROM `webinfo` [ RunTime:0.0022s ]
+SQL: UPDATE `webinfo` SET `webview`=webview+1 WHERE ( id=0 ) [ RunTime:0.0002s ]
+SQL: SELECT * FROM `webinfo`  [ RunTime:0.0002s ]
+SQL: SELECT `title`,`label`,`id` FROM `article` ORDER BY pageview desc LIMIT 4   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `article` ORDER BY time desc LIMIT 0,8   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000211s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014790s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014928s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000749s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001243s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001483s ]
+
+[ 2015-08-12T22:14:56+08:00 ] ::1 /article/mcu/17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001269s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0024s ]
+SQL: UPDATE `article` SET `pageview`=pageview+1 WHERE ( id=17 ) [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `webinfo` [ RunTime:0.0235s ]
+SQL: SELECT * FROM `webinfo`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `article` WHERE ( id=17 )  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`label`,`title` FROM `article` WHERE ( label=2 ) LIMIT 4   [ RunTime:0.0004s ]
+SQL: SELECT `title`,`label`,`id` FROM `article` ORDER BY pageview desc LIMIT 4   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `comment` WHERE ( aid=17 ) ORDER BY time desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000254s ]
+NOTIC: [8] Use of undefined constant comment - assumed 'comment' E:\wamp\www\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 21 行.
+NOTIC: [8] Use of undefined constant praise - assumed 'praise' E:\wamp\www\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069893s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070035s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.025402s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.025657s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002913s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003159s ]
+

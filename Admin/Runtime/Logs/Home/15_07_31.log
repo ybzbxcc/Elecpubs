@@ -1,0 +1,108 @@
+[ 2015-07-31T22:36:10+08:00 ] ::1 /admin.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000995s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000226s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016246s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016452s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000589s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000902s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001126s ]
+
+[ 2015-07-31T22:36:12+08:00 ] ::1 /admin.php/Write/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001904s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020124s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020271s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000495s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000652s ]
+
+[ 2015-07-31T23:06:41+08:00 ] ::1 /admin.php/Write/images/image.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+
+[ 2015-07-31T23:13:40+08:00 ] ::1 /admin.php/Write/images/image.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+
+[ 2015-07-31T23:26:41+08:00 ] ::1 /admin.php/Write/images/image.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000955s ]
+
+[ 2015-07-31T23:32:23+08:00 ] ::1 /admin.php/Write/images/image.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+
+[ 2015-07-31T23:38:14+08:00 ] ::1 /admin.php/Write/images/image.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+
+[ 2015-07-31T23:39:24+08:00 ] ::1 /admin.php/Write/sendBlog
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000785s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0036s ]
+SQL: INSERT INTO `article` (`title`,`summary`,`content`,`label`,`time`) VALUES ('一加手机之氢os','今天下午17:00，一加官方在论坛发布了氢OS社区特别版的ROM刷机包。这是为了让一加一用户在一加二正式开卖之前提早用上氢OS。
+说是社区特别版，其实还是内测版的。因此，有一些问题是难免的。','<p>&lt;h4&gt;刷机流程&lt;/h4&gt;</p><p>在一加论坛<a target=\"_blank\" href=\"http://www.oneplusbbs.com/thread-832764-1-1.html\">氢OS版块</a>里面有详细的刷机过程与下载文件，有需要的可以去看看，这里就不说了。</p><p>&lt;h4&gt;刷机流程&lt;/h4&gt;</p><p>大概用了20多分钟，我就成功刷上了氢OS。当开机界面一出现的时候，我心里那个激动啊，一次成功。然后映入眼帘的是手机设置的画面，感觉很是简洁。当设置完成之后，就正式看到了氢OS的真面孔，说真的给我的第一感觉是干净，图标设计的很漂亮，画面的上面33%的面积是氢视窗。下面背景的颜色是根据氢视窗的图片然后通过一加的算法来确定的，看起来颜色搭配很协调。</p><p><img data-image-size=\"500,326\" src=\"http://www.elecpubs.com/Public/images/opico.jpg\" alt=\"Image\"></p><p>把玩了20分钟后，个人感觉氢os很顺畅。氢OS很大胆的取消了dock栏，我对这个做法深表赞同。因为用了20分钟，也没感到有什么不习惯，反倒觉得顺眼多了。<br></p><p><img data-image-size=\"539,358\" src=\"http://www.elecpubs.com/Public/images/oneplus.jpg\" alt=\"Image\"></p><p>不过我也发现了几个问题，一个是使用久了手机较Color OS发热严重，另一个是没有文件管理器，只能通过设置 &gt; 高级设置 &gt; 存储 这样的方法去操作，略显得不方便。最后一个是当有QQ消息弹窗再黑屏双击打开时，会有一些卡顿。不过毕竟是内测版本，没那么完美可以理解。</p><p><img data-image-size=\"768,497\" src=\"http://www.elecpubs.com/Public/images/zhuzi3.jpg\" alt=\"Image\"><br></p><p>最后总结一下，个人感觉氢OS体现出了干净，简洁的风格，使用起来很舒服。等到其再经历几个版本的洗礼与不断改进，我相信氢OS绝对是国内的安卓ROM里面最好用的（个人看法，勿喷）。最近在逛<a target=\"_blank\" href=\"http://www.oneplusbbs.com/\">一加论坛</a>的时候，发现很多加油在骂为什么现在才出氢OS，而且是还是内测版的。其实，我觉得我们也要宽容一些，毕竟开发一个OS工作量还是很大的，并且还是直接从android 5.0到5.1。好了，废话不多说，喜欢的朋友可以去<a target=\"_blank\" href=\"http://www.oneplusbbs.com/\">一加论坛</a>看看，再奉上几张一加二的美图。8月4号早上一加二开始发售，喜欢氢OS还有一加二的朋友记得不要错过哦。最后在此希望一加二大卖。</p><p><img data-image-size=\"670,421\" src=\"http://www.elecpubs.com/Public/images/kailafu.jpg\" alt=\"Image\"><br></p>','10','1438357163') [ RunTime:0.1676s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025380s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025605s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000820s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001290s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001535s ]
+
+[ 2015-07-31T23:39:25+08:00 ] ::1 /admin.php/Write/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001143s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000430s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012914s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013116s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000885s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001256s ]
+

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="copyright" content="xcc">
+	<meta name="keywords" content="电子,个人博客,硬件,电子客栈">
+	<meta name="description" content="电子客栈，是关注电子发展、专注电子技术的技术博客。提供硬件资料下载与技术知识的个人见解。">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=0">
+	<meta name="baidu-site-verification" content="GjvMGHGZ1p" />
+	<meta name="baidu_union_verify" content="508f6e771293cc0d5abb0b6820878783">
+	<meta name="360_union_verify" content="443a85d46738ae4b2d5e83aa43307407">
+	<meta name="360-site-verification" content="3c104b3517e8c5195e4b42c762015985" />
+	<meta name="sogou_site_verification" content="DT23DZ05Hz"/>
+	<meta property="qc:admins" content="25021110276545305236375" />
+	<title>电子客栈 | 渴望成为个专注电子技术的技术博客</title>
+	<link rel="shortcut icon" href="__PUBLIC__/images/logo2.ico">
+	<link rel="stylesheet" href="__PUBLIC__/css/style.css">
+	<script>
+		var ctrlname = <?php echo "'".CONTROLLER_NAME."'"; ?>;; // obtain the controller name
+	</script>
+</head>
+<body>
+<include file="Common/header" />
+<div class="container" id="content" onclick="hideNav()">
+		<div class="col-md-8-5 col-sm-8-5">
+			<?php foreach ($article as $key => $value): ?>
+				<article class="card">
+					<div class="card-title">
+						<a href="{:U(setHref($value['type'], $value['id']))}">
+							<?php echo $value['title']; ?>
+						</a>
+					</div>
+					
+					<div class="card-body">
+						<div class="card-img ">
+							<a href="{:U(setHref($value['type'], $value['id']))}">
+								<img src=<?php echo $value['img']; ?> alt="">
+							</a>
+						</div>
+						<ul class="card-info">
+							<li class="card-tag">
+								<a href=""><?php echo setLabel($value['type']); ?></a>
+							</li>
+							<li>
+								<i class="fa fa-clock-o"></i>
+								<?php echo formatTime($value['time']); ?>
+							</li>
+							<li class="hidden-xs">
+								<i class="fa fa-eye"></i>
+								浏览 <?php echo $value['pageview']; ?> 次
+							</li>
+							<li class="hidden-xs">
+								<i class="fa fa-comments-o"></i> <?php echo $value['reply']; ?>
+							</li>
+						</ul>
+						<div class="card-content">
+							<?php echo $value['excerpt']; ?>
+						</div>
+					</div>
+					
+				</article>		
+			<?php endforeach ?>
+			<div id="page"><?php echo $page; ?></div>
+		</div>
+		<div class="col-md-3-5 col-sm-3-5 hidden-xs">
+			<include file="Common/sidebar" />
+		</div>
+</div>
+<include file="Common/footer" />
+</body>
+</html>

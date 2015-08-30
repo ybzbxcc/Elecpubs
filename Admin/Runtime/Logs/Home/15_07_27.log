@@ -1,0 +1,223 @@
+[ 2015-07-27T01:01:22+08:00 ] ::1 /admin.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000106s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000814s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000232s ]
+NOTIC: [8] Undefined variable: userinfo E:\wamp\www\Admin\Runtime\Cache\Home\55843b8195cd32862e5dfa640df6e51d.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016245s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016426s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000575s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000726s ]
+
+[ 2015-07-27T01:02:20+08:00 ] ::1 /admin.php/Index/sendBlog
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000828s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000935s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0073s ]
+SQL: INSERT INTO `article` (`title`,`summary`,`content`,`label`,`time`) VALUES ('有必要以51单片机入门吗','是否需要以C51为学习单片机的入门？有人认为C51确实有点过时，工作后项目一般是以32位MCU为主。也有人反驳说，C51是基础，应该把它吃透了再去学习其他芯片。笔者认为两种看法的对错应该视情况而定。','<ul><li><b>适合以C51为入门的人群</b><br></li></ul><p>如果说学习是为了钻研技术，想吃透单片机，不考虑是为了马上进入工作。那么C51入门确实是个好选择。可能有人会说，C51作为入门的优点不就是可以学习寄存器的操作，而且价格便宜吗，这些在32位MCU学习上也可以有，以STM32为例，其本来就有寄存器版与库函数版吗，直接学习寄存器版本的也可以学习寄存器的操作。说到价格，现在Cortex - M0系列的32单片机淘宝也就3块人民币。反正51能干的我32为单片机也能胜任，而且更加出色。对于这种看法，笔者并不赞同。所谓入门，那就是初学者，而且是满怀兴趣与想吃透单片机的初学者，一入门就拿着32位的寄存器入门，然后看了半天头都看晕了，也没弄个所以然来。这样的话及其容易打击信心与学习下去的乐趣。相反C51的寄存器操作简单多了，一学就感觉可以理解，接下来还可以再战。那么每天的学习都是满怀斗志的。这样子的学习状态更加有利于钻研技术。</p><p>所以笔者认为想钻研技术，想吃透单片机，不考虑是为了马上进入工作的人群来说，C51单片机可以作为入门首选。</p><p><img data-image-size=\"600,375\" src=\"http://www.elecpubs.com/Public/images/pink.jpg\" alt=\"Image\"><br></p><ul><li><b>不太适合以C51作为入门的人群</b></li></ul><p>如果说学习本就是来体验一下各种有玩头的东西，比如四轴飞行器之类的，或者说得马上加入工作，现在急需补充一些知识的话，那么直接以个人需要去学习更加复杂的芯片，我觉得合情合理。此时再学习C51确实显得有点不合实际与浪费时间。</p><p>因为笔者也认为，C51毕竟辉煌已过，或者说跟不上时代了。按照莫尔定律，电子行业每18个月更新换代，10年前的技术现在已经更新了6代了，现在看来也相差无几。你如果马上要加入工作了，学习它就有点落后了。</p><p><img data-image-size=\"1080,674\" src=\"http://www.elecpubs.com/Public/images/scenery.jpg\" alt=\"Image\"><br></p><p><b>总结：</b><br>由上可以看来，是否要学习C51，只有你自己知道答案。其实如果你有决心，觉得自己学习能力强，那么你想怎么来就怎么来，什么arm7、arm9学好后照样天高任鸟飞。或者你需要马上熟悉某款芯片，那么C51这种老气的东西就不要理了。可是如果你只是个想钻研知识，希望把基础打好的话，或者自己也没什么自信的话，那么强烈建议C51入门。因为笔者自认为也是这类人。</p>','2','1437930140') [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000231s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018458s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018677s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000701s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000875s ]
+
+[ 2015-07-27T01:02:21+08:00 ] ::1 /admin.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000754s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000720s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+NOTIC: [8] Undefined variable: userinfo E:\wamp\www\Admin\Runtime\Cache\Home\55843b8195cd32862e5dfa640df6e51d.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006955s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007118s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000751s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000944s ]
+
+[ 2015-07-27T01:07:55+08:00 ] ::1 /admin.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001072s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000235s ]
+NOTIC: [8] Undefined variable: userinfo E:\wamp\www\Admin\Runtime\Cache\Home\55843b8195cd32862e5dfa640df6e51d.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016516s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016709s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000699s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000872s ]
+
+[ 2015-07-27T08:21:31+08:00 ] ::1 /admin.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000975s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000233s ]
+NOTIC: [8] Undefined variable: userinfo E:\wamp\www\Admin\Runtime\Cache\Home\55843b8195cd32862e5dfa640df6e51d.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027563s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027747s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000672s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000826s ]
+
+[ 2015-07-27T08:29:29+08:00 ] ::1 /admin.php/images/image.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000725s ]
+
+[ 2015-07-27T08:40:05+08:00 ] ::1 /admin.php/images/image.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+
+[ 2015-07-27T10:42:59+08:00 ] ::1 /admin.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000986s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000246s ]
+NOTIC: [8] Undefined variable: userinfo E:\wamp\www\Admin\Runtime\Cache\Home\55843b8195cd32862e5dfa640df6e51d.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013766s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013967s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000654s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000771s ]
+
+[ 2015-07-27T10:43:20+08:00 ] ::1 /admin.php/Index/sendBlog
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0692s ]
+SQL: INSERT INTO `article` (`title`,`summary`,`content`,`label`,`time`) VALUES ('USB Type-C将出现在你下一个新手机里','现在正风行一时（据说功能之强大，还可以正反插）的USB Type-C接口，即将出现在你的下一步新手机啦。不过兴奋之余，我们先冷静下来分析一下什么是USB-C接口。','<p><img data-image-size=\"600,375\" src=\"http://www.elecpubs.com/Public/images/pink.jpg\" alt=\"Image\"></p><p>在不久的将来，你的手机上会有个很小但是却益处多多的改变。或许，对于百分之99的人来说，这只是一个设计师努力钻研而出却并不起眼的小改变，所以在他们看来并不重要。然而，我们还是应该好好坐下来谈谈它，因为总有一天你会看着你的手机，疑惑得想，”这个小东西到底是什么？“。</p><p>它就是USB Type-C，也称为USB-C。简单来说就是我们手机充电的USB口。据说在下一代的平板和电脑将会陆续用上USB-C。</p><ul><li><b>什么是USB Type-C？</b></li></ul><p>Type-C全称USB&nbsp;Type-C接口，是一种全新的USB接口形式，它伴随最新的USB3.1标准横空出世，从发布至今已经有一年多的时间了。其实也就是我们平时所用的USB接口。但是USB-C端口长0.83厘米、宽0.26厘米。而老式的USB端口接近于USB-C的两倍。因此USB-C接口将使机身更薄。2013年12月，USB 3.0推广团队已经公布了下一代 USB Type-C 连接器的渲染图，随后在2014年8月开始已经准备好进行大规模量产。诺基亚官方曾经表示新产品N1将支持最新的 Type-C USB接口，不过当时并没有引起外界足够的重视。USB Type-C的出名还是由于2015年5月苹果全新一代MacBook笔记本电脑的发布而变得人尽皆知。<br></p><ul><li><b>USB Type-C 的优点<br></b></li></ul><p>说到USB-C的好处那可谓一抓一大把。首先，它可以正反插（此乃万年之久的世界难题啊）。相信大家都在现在的手机常用USB接口下受够了苦头。插之前还得看清楚哪个才是正面，否则什么事情都可能发生（笔者有一部手机就是经常插错，把插口插坏了）。</p><p>除此之外，USB-C接口支持 USB3.1 标准，也就是说除了充电意外，做其他事情也是可以应付的游刃有余啊。怪不得有人惊叹，”一个接口就可以充当USB、视频输出及电源如此多接口的作用，真是神了!“</p><p>最后一点，由于电子产品对于USB-C的迅速普及，以后的数据传输工作用一根线就可以完成了。再也不用像现在一样，各种接口各种形状（诸如USB Type-A、Mini-USB、Micro-USB）层出不穷<b>。</b></p><ul><li><b>旗舰之首选</b></li></ul><p>由目前情势所了解到，Type-C接口陆续成为各类机子的旗舰必备。2015年5月推出的新一代MacBook全机身就只有一个USB接口，那就是USB-C接口。还有Nokia N1 平板也使用了USB-C。除此之外，近年来发展势头不错的一加手机 （<a target=\"_blank\" href=\"http://www.oneplus.cn/\">官网</a>）OnePlus 2据说也配备了USB-C接口。（Samsung Galaxy Note 5 可能也使用上了USB-C）。<br></p><p><b></b></p>','10','1437965000') [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000224s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054012s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054148s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000526s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000643s ]
+
+[ 2015-07-27T10:43:21+08:00 ] ::1 /admin.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000964s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000424s ]
+NOTIC: [8] Undefined variable: userinfo E:\wamp\www\Admin\Runtime\Cache\Home\55843b8195cd32862e5dfa640df6e51d.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012716s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012922s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000686s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000708s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000874s ]
+
+[ 2015-07-27T10:43:54+08:00 ] ::1 /admin.php/Index/sendBlog
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000895s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0540s ]
+SQL: INSERT INTO `article` (`title`,`summary`,`content`,`label`,`time`) VALUES ('USB Type-C将出现在你下一个新手机里','现在正风行一时（据说功能之强大，还可以正反插）的USB Type-C接口，即将出现在你的下一步新手机啦。不过兴奋之余，我们先冷静下来分析一下什么是USB-C接口。','<p><img data-image-size=\"600,375\" src=\"http://www.elecpubs.com/Public/images/pink.jpg\" alt=\"Image\"></p><p>在不久的将来，你的手机上会有个很小但是却益处多多的改变。或许，对于百分之99的人来说，这只是一个设计师努力钻研而出却并不起眼的小改变，所以在他们看来并不重要。然而，我们还是应该好好坐下来谈谈它，因为总有一天你会看着你的手机，疑惑得想，”这个小东西到底是什么？“。</p><p>它就是USB Type-C，也称为USB-C。简单来说就是我们手机充电的USB口。据说在下一代的平板和电脑将会陆续用上USB-C。</p><ul><li><b>什么是USB Type-C？</b></li></ul><p>Type-C全称USB&nbsp;Type-C接口，是一种全新的USB接口形式，它伴随最新的USB3.1标准横空出世，从发布至今已经有一年多的时间了。其实也就是我们平时所用的USB接口。但是USB-C端口长0.83厘米、宽0.26厘米。而老式的USB端口接近于USB-C的两倍。因此USB-C接口将使机身更薄。2013年12月，USB 3.0推广团队已经公布了下一代 USB Type-C 连接器的渲染图，随后在2014年8月开始已经准备好进行大规模量产。诺基亚官方曾经表示新产品N1将支持最新的 Type-C USB接口，不过当时并没有引起外界足够的重视。USB Type-C的出名还是由于2015年5月苹果全新一代MacBook笔记本电脑的发布而变得人尽皆知。<br></p><ul><li><b>USB Type-C 的优点<br></b></li></ul><p>说到USB-C的好处那可谓一抓一大把。首先，它可以正反插（此乃万年之久的世界难题啊）。相信大家都在现在的手机常用USB接口下受够了苦头。插之前还得看清楚哪个才是正面，否则什么事情都可能发生（笔者有一部手机就是经常插错，把插口插坏了）。</p><p>除此之外，USB-C接口支持 USB3.1 标准，也就是说除了充电意外，做其他事情也是可以应付的游刃有余啊。怪不得有人惊叹，”一个接口就可以充当USB、视频输出及电源如此多接口的作用，真是神了!“</p><p>最后一点，由于电子产品对于USB-C的迅速普及，以后的数据传输工作用一根线就可以完成了。再也不用像现在一样，各种接口各种形状（诸如USB Type-A、Mini-USB、Micro-USB）层出不穷<b>。</b></p><ul><li><b>旗舰之首选</b></li></ul><p>由目前情势所了解到，Type-C接口陆续成为各类机子的旗舰必备。2015年5月推出的新一代MacBook全机身就只有一个USB接口，那就是USB-C接口。还有Nokia N1 平板也使用了USB-C。除此之外，近年来发展势头不错的一加手机 （<a target=\"_blank\" href=\"http://www.oneplus.cn/\">官网</a>）OnePlus 2据说也配备了USB-C接口。（Samsung Galaxy Note 5 可能也使用上了USB-C）。<br></p>','10','1437965034') [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000234s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008756s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008909s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000644s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000785s ]
+
+[ 2015-07-27T10:43:55+08:00 ] ::1 /admin.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000756s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+NOTIC: [8] Undefined variable: userinfo E:\wamp\www\Admin\Runtime\Cache\Home\55843b8195cd32862e5dfa640df6e51d.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007691s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007834s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000634s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000791s ]
+

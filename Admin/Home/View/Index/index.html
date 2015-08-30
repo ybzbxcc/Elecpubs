@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=0">
+	<title>Admin</title>
+ 	<link rel="stylesheet" href="__PUBLIC__/css/admin.css">
+ 	<link rel="stylesheet" href="__PUBLIC__/css/font-awesome.css">
+</head>
+<body>
+	<div id="mainwrap" class="container-fluid">
+		<div class="col-md-2 col-sm-2 hidden-xs" id="sidebar">
+			<include file="Common/sidebar" />
+		</div> 
+		<div class="col-md-10 col-sm-10 col-md-offset-2 col-sm-offset-2" id="content">
+			<include file="Common/header" />
+			<div id="maincontent">
+				<h1>Dashboard</h1>
+				<div class="page"></div>
+				<div class="col-md-7" style="padding-left:0;">
+					<div class="widget">
+						<div class="widget-title">At a glance</div>
+						<div class="widget-body">
+						<ul id="glance">
+							<li><i class="fa fa-comment"></i> 2 Comments</li>
+							<li><i class="fa fa-edit"></i> 4 posts</li>
+							<li><i class="fa fa-tags"> 5 categories</i></li>
+						</ul>
+					</div>
+					</div>
+
+				</div>
+				<div class="col-md-5" style="padding:0;">
+					<div class="card"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

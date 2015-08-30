@@ -1,0 +1,54 @@
+<include file="Common/header" />
+<div class="container" id="content" onclick="hideNav()">
+	<div class="col-md-9 col-sm-9">
+		<article class="page">
+			<div class="page-title">归档</div>
+			<?php foreach ($archive as $year => $yvalue): ?>
+				<?php foreach ($yvalue as $month => $mvalue): ?>
+					<?php foreach ($mvalue as $day => $dvalue): ?>
+						<div class="page-body" id="sort">
+							<h3>
+								<span id="sort-title">
+									<?php echo $year.'年'.' '.$month.'月'.' '.$day.'日'; ?>
+								</span>
+								<span id="sort-line"></span>
+							</h3>
+							<ul>
+								<?php foreach ($dvalue as $key => $value): ?>
+									<li>
+										<a href="{:U(setHref($value['label'], $value['id']))}">
+											<?php echo $value['title']; ?>
+										</a>
+										<span class="sort-view">
+											<?php echo $value['pageview'] ?> views
+										</span>
+									</li>
+								<?php endforeach ?>
+							</ul>
+						</div>	
+					<?php endforeach ?>
+				<?php endforeach ?>
+			<?php endforeach ?>
+			
+		</article>
+	</div>
+	<div class="col-md-3 hidden-xs col-sm-3">
+		<div id="sidebar">
+			<div class="panel" id="panelfixed">
+				<div class="panel-title"><i class="icon icon-fire"></i> 热门文章</div>
+				<div class="panel-body">
+					<?php foreach ($bloglist as $key => $value): ?>
+						<div class="panel-list">
+							<a href="{:U(setHref($value['label'],$value['id']))}" target="_blank">
+								<?php echo $value['title']; ?>
+							</a> 
+						</div>
+					<?php endforeach ?>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<include file="Common/footer" />
+</body>
+</html>

@@ -1,0 +1,333 @@
+[ 2015-07-21T22:02:05+08:00 ] ::1 /admin.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000916s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
+NOTIC: [8] Undefined variable: userinfo E:\wamp\www\Admin\Runtime\Cache\Home\55843b8195cd32862e5dfa640df6e51d.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013115s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013323s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000565s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000685s ]
+
+[ 2015-07-21T22:12:03+08:00 ] ::1 /admin.php/Index/sendBlog
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000839s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001008s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0082s ]
+SQL: INSERT INTO `article` (`title`,`summary`,`content`,`label`,`time`) VALUES ('C语言的”书法“艺术 – 空行','空行起着分隔程序段落的作用。空行得体（不过多也不过少）将使程序的布局更加
+清晰。空行不会浪费内存，虽然打印含有空行的程序是会多消耗一些纸张，但是值得。
+所以不要舍不得用空行。','<ul><li>在每个类声明之后、每个函数定义结束之后都要加空行。</li></ul><pre data-lang=\"c++\" class=\"lang-c++\">//空行
+void function eat(...){
+&nbsp; ....
+}
+//空行
+void function run(...)
+{
+  ....
+}
+//空行
+void function sleep(...)
+{
+  ....
+}
+</pre><ul><li>在一个函数体内，逻揖上密切相关的语句之间不加空行，其它地方应加空行分隔。<br></li></ul><pre class=\"\">while (...)
+{
+&nbsp; statement1;
+&nbsp; //空行
+&nbsp; if (condition)
+&nbsp;&nbsp;{
+&nbsp;&nbsp;&nbsp; statement2;
+&nbsp; }
+  else
+&nbsp; {
+&nbsp;&nbsp;&nbsp; statement3;
+&nbsp; }
+&nbsp; //空间
+&nbsp; statement4;
+}
+</pre>','4','1437487923') [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000267s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000730s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.159891s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.160148s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001359s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001621s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001197s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001460s ]
+
+[ 2015-07-21T22:12:04+08:00 ] ::1 /admin.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000906s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001193s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000331s ]
+NOTIC: [8] Undefined variable: userinfo E:\wamp\www\Admin\Runtime\Cache\Home\55843b8195cd32862e5dfa640df6e51d.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010716s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010911s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000728s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000685s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000857s ]
+
+[ 2015-07-21T22:27:24+08:00 ] ::1 /admin.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000833s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001324s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000386s ]
+NOTIC: [8] Undefined variable: userinfo E:\wamp\www\Admin\Runtime\Cache\Home\55843b8195cd32862e5dfa640df6e51d.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011158s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011366s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000782s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001025s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001229s ]
+
+[ 2015-07-21T22:36:15+08:00 ] ::1 /admin.php/Index/sendBlog
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000811s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000941s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0093s ]
+SQL: INSERT INTO `article` (`title`,`summary`,`content`,`label`,`time`) VALUES ('C语言的”书法“艺术 – 代码行','机器读取代码是一行一行来的。因此我们可以按照机器的思维，把代码也看做一行行的。一行代码只做一件事情，如只定义一个变量，或只写一条语句。这样的代码容易阅读，并且更重要的是方便于写注释。','<ul><li><b>尽可能在定义变量的同时初始化该变量（就近原则）</b></li></ul><p>如果变量的引用处和其定义处相隔比较远，变量的初始化很容易被忘记。如果引用了未被初始化的变量，可能会导致程序错误。本建议可以减少隐患。</p><pre data-lang=\"c++\" class=\"lang-c++\">int width = 10;   //定义并初绐化width 
+int height = 10;  //定义并初绐化height 
+int size = 20;    //定义并初始化size</pre><ul><li><b>if、for、while、do等语句自占一行，执行语句不得紧跟其后。不论执行语句有多少都要加{}。这样可以防止书写失误。</b></li></ul><pre class=\"\">if (width &lt; height)
+{
+&nbsp; statement1;
+}
+
+//空行
+for (initialization;condition;update)
+{
+&nbsp; statement2;
+}
+//空行
+others();<br></pre>','4','1437489375') [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000254s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012058s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012330s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001044s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001112s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001422s ]
+
+[ 2015-07-21T22:36:16+08:00 ] ::1 /admin.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001027s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000257s ]
+NOTIC: [8] Undefined variable: userinfo E:\wamp\www\Admin\Runtime\Cache\Home\55843b8195cd32862e5dfa640df6e51d.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009033s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009234s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000643s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000756s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000913s ]
+
+[ 2015-07-21T22:39:19+08:00 ] ::1 /admin.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000811s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000229s ]
+NOTIC: [8] Undefined variable: userinfo E:\wamp\www\Admin\Runtime\Cache\Home\55843b8195cd32862e5dfa640df6e51d.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008260s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008468s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000643s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000787s ]
+
+[ 2015-07-21T23:00:44+08:00 ] ::1 /admin.php/Index/sendBlog
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000899s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0086s ]
+SQL: INSERT INTO `article` (`title`,`summary`,`content`,`label`,`time`) VALUES ('C语言的”书法“艺术 – 代码行内空格','','<ol><li>关键字之后要留空格。象const、virtual、inline、case等关键字之后至少要留一个空格，否则无法辨析关键字。if、for、while等关键字之后应留一个空格再跟左括号‘（’，以突出关键字。</li><li>函数名之后不要留空格，紧跟左括号‘（’，以与关键字区别。</li><li>（’向后紧跟，‘）’、‘，’、‘;’向前紧跟，紧跟处不留空格。</li><li>‘，’之后要留空格，如Function(x, y, z)。如果‘;’不是一行的结束符号，其后要留空格，如</li><li>赋值操作符、比较操作符、算术操作符、逻辑操作符、位域操作符，如“=”、“+=”“&gt;=”、“&lt;=”、“+”、“*”、“%”、“&amp;&amp;”、“||”、“&lt;&lt;,“^”等二元操作符的前后应当加空格。</li><li>一元操作符如“!”、“~”、“++”、“--”、“&amp;”（地址运算符）等前后不加空格</li><li>象“［］”、“.”、“-&gt;”这类操作符前后不加空格。</li><li>对于表达式比较长的for语句和if语句，为了紧凑起见可以适当地去掉一些空格，如for (i=0; i&lt;10; i++)和if ((a&lt;=b) &amp;&amp; (c&lt;=d)) </li></ol><pre data-lang=\"c++\" class=\"lang-c++\">void Func1(int x, int y, int z);          // 良好的风格
+void Func1 (int x,int y,int z);           // 不良的风格
+
+if (year &gt;= 2000)                         // 良好的风格
+if(year&gt;=2000)                            // 不良的风格
+if ((a&gt;=b) &amp;&amp; (c&lt;=d))                     // 良好的风格
+if(a&gt;=b&amp;&amp;c&lt;=d)                            // 不良的风格
+
+for (i=0; i&lt;10; i++)                      // 良好的风格
+for(i=0;i&lt;10;i++)                         // 不良的风格
+for (i = 0; I &lt; 10; i ++)                 // 过多的空格
+
+x = a &lt; b ? a : b;                        // 良好的风格
+x=a&lt;b?a:b;                                // 不好的风格
+
+int *x = &amp;y;                              // 良好的风格
+int * x = &amp; y;                            // 不良的风格
+
+array[5] = 0;                             // 不要写成 array [ 5 ] = 0;
+a.Function();                             // 不要写成 a . Function(); 
+b-&gt;Function();                            // 不要写成 b -&gt; Function(); 
+</pre>','4','1437490844') [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000243s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016909s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017133s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000680s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000840s ]
+
+[ 2015-07-21T23:00:45+08:00 ] ::1 /admin.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000814s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000247s ]
+NOTIC: [8] Undefined variable: userinfo E:\wamp\www\Admin\Runtime\Cache\Home\55843b8195cd32862e5dfa640df6e51d.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008787s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008988s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000612s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000747s ]
+
+[ 2015-07-21T23:40:33+08:00 ] ::1 /admin.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000769s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000240s ]
+NOTIC: [8] Undefined variable: userinfo E:\wamp\www\Admin\Runtime\Cache\Home\55843b8195cd32862e5dfa640df6e51d.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009764s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010023s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000821s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000884s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001085s ]
+
+[ 2015-07-21T23:45:29+08:00 ] ::1 /admin.php/Index/sendBlog
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000992s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000996s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.1140s ]
+SQL: INSERT INTO `article` (`title`,`summary`,`content`,`label`,`time`) VALUES ('C语言的”书法“艺术 – 对齐','程序的分界符‘{’和‘}’应独占一行并且位于同一列，同时与引用它们的语句左对齐。','<ol><li>程序的分界符‘{’和‘}’应独占一行并且位于同一列，同时与引用它们的语句左对齐。</li><li>{ }之内的代码块在‘{’右边数格处左对齐。</li></ol><pre data-lang=\"c++\" class=\"lang-c++\">void function eat()
+{
+&nbsp; statement1;
+}
+//如果出现嵌套的｛｝，则使用缩进对齐，如：
+{
+&nbsp; ...
+&nbsp; &nbsp;&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ...
+&nbsp; &nbsp; }
+&nbsp;&nbsp;...
+}
+</pre>','4','1437493529') [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000198s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000555s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017386s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017763s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000971s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000971s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001217s ]
+
+[ 2015-07-21T23:45:30+08:00 ] ::1 /admin.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000919s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001531s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000226s ]
+NOTIC: [8] Undefined variable: userinfo E:\wamp\www\Admin\Runtime\Cache\Home\55843b8195cd32862e5dfa640df6e51d.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007748s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007947s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000620s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000762s ]
+

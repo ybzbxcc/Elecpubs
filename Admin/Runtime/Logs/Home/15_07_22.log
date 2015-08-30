@@ -1,0 +1,208 @@
+[ 2015-07-22T00:00:04+08:00 ] ::1 /admin.php/Index/sendBlog
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0595s ]
+SQL: INSERT INTO `article` (`title`,`summary`,`content`,`label`,`time`) VALUES ('C语言的”书法“艺术 – 注释','C语言的注释符为“/*...*/”。C++语言中，程序块的注释常采用“/*...*/”，行注释一般采用“//...”。注释通常用于：<br>
+（1）版本、版权声明；<br>
+（2）函数接口说明；<br>
+（3）重要的代码行或段落提示。虽然注释有助于理解代码，但注意可过多地使用注释。','<ol><li>注释是对代码的“提示”，而不是文档。程序中的注释不可喧宾夺主，注释太多了会让人眼花缭乱。注释的花样要少。</li><li>如果代码本来就是清楚的，则不必加注释。否则多此一举，令人厌烦。例如i++;    // i加1，多余的注释</li><li>边写代码边注释，修改代码同时修改相应的注释，以保证注释与代码的一致性。不再有用的注释要删除</li><li>注释应当准确、易懂，防止注释有二义性。错误的注释不但无益反而有害。</li><li>尽量避免在注释中使用缩写，特别是不常用缩写。</li><li>注释的位置应与被描述的代码相邻，可以放在代码的上方或右方，不可放在下方。</li><li>当代码比较长，特别是有多重嵌套时，应当在一些段落的结束处加注释，便于阅读。</li></ol><pre data-lang=\"c++\" class=\"lang-c++\">/* 
+* 函数介绍：
+* 输入参数：
+* 输出参数：
+* 返回值：
+*/ 
+void Function(float x, float y, float z) 
+{ 
+  ... 
+} 
+
+if (...) 
+{ 
+  ... 
+  while (...) 
+  { 
+&nbsp;&nbsp;&nbsp;&nbsp;... 
+&nbsp; } // end of while 
+&nbsp;&nbsp;... 
+} // end of if <br></pre>','4','1437494404') [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000235s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015980s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016152s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000650s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000769s ]
+
+[ 2015-07-22T00:00:05+08:00 ] ::1 /admin.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000987s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001838s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000379s ]
+NOTIC: [8] Undefined variable: userinfo E:\wamp\www\Admin\Runtime\Cache\Home\55843b8195cd32862e5dfa640df6e51d.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011763s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012060s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000916s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001269s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001083s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001295s ]
+
+[ 2015-07-22T13:46:57+08:00 ] ::1 /admin.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000774s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001138s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000214s ]
+NOTIC: [8] Undefined variable: userinfo E:\wamp\www\Admin\Runtime\Cache\Home\55843b8195cd32862e5dfa640df6e51d.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019356s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000597s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000725s ]
+
+[ 2015-07-22T13:56:31+08:00 ] ::1 /admin.php/Index/sendBlog
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000966s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0089s ]
+SQL: INSERT INTO `article` (`title`,`summary`,`content`,`label`,`time`) VALUES ('C语言的”书法“艺术 – 长行拆分','代码行最大长度宜控制在50字符以内。代码行不要太长，否则屏幕稍微小点的，就要左右移动，并且看着眼睛也累，也不方便打印。长表达式要在低优先级操作符处拆分成新行，操作符放在新行之首（以便突出操作符）。拆分出的新行要进行适当的缩进，使排版整齐，语句可读。','<ul><li>代码行最大长度宜控制在50字符以内。代码行不要太长，否则屏幕稍微小点的，就要左右移动，并且看着眼睛也累，也不方便打印。</li><li>长表达式要在低优先级操作符处拆分成新行，操作符放在新行之首（以便突出操作符）。拆分出的新行要进行适当的缩进，使排版整齐，语句可读。</li></ul><pre data-lang=\"c\" class=\"lang-c\">if ((very_longer_variable1 &gt;= very_longer_variable12) 
+&nbsp;&nbsp; &amp;&amp; (very_longer_variable3 &lt;= very_longer_variable14) 
+&nbsp;&nbsp; &amp;&amp; (very_longer_variable5 &lt;= very_longer_variable16)) 
+{ 
+&nbsp; statement1；
+} 
+//空行
+for (very_longer_initialization; 
+  &nbsp;&nbsp;very_longer_condition; 
+  &nbsp;&nbsp;very_longer_update) 
+{ 
+&nbsp; statement2; 
+} 
+</pre>','4','1437544591') [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000247s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.121628s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.121816s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000615s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000784s ]
+
+[ 2015-07-22T13:56:32+08:00 ] ::1 /admin.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000813s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000323s ]
+NOTIC: [8] Undefined variable: userinfo E:\wamp\www\Admin\Runtime\Cache\Home\55843b8195cd32862e5dfa640df6e51d.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010727s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010902s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000657s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000833s ]
+
+[ 2015-07-22T14:20:27+08:00 ] ::1 /admin.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000968s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000399s ]
+NOTIC: [8] Undefined variable: userinfo E:\wamp\www\Admin\Runtime\Cache\Home\55843b8195cd32862e5dfa640df6e51d.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013366s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013537s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000612s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000752s ]
+
+[ 2015-07-22T14:22:22+08:00 ] ::1 /admin.php/Index/sendBlog
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000825s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0078s ]
+SQL: INSERT INTO `article` (`title`,`summary`,`content`,`label`,`time`) VALUES ('C语言的”书法“艺术 – 修饰符的位置','修饰符 * 和&应该靠近数据类型还是该靠近变量名，是个有争议的活题。若将修饰符 * 靠近数据类型，例如：int*  x; 
+从语义上讲此写法比较直观，即x是int 类型的指针。上述写法的弊端是容易引起误解，例如：int*  x, y; 此处y容易被误解为指针变量。虽然将x和y分行定义可以避免误解，但并不是人人都愿意这样做。','<p><b>因此个人觉得应当将修饰符 *和＆紧靠变量名。</b></p><pre data-lang=\"c\" class=\"lang-c\">char &nbsp; *name;
+int&nbsp; *x, y; &nbsp; &nbsp; &nbsp;  // 此处y不会被误解为指针</pre>','4','1437546142') [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000271s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015224s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015406s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000615s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000762s ]
+
+[ 2015-07-22T14:22:23+08:00 ] ::1 /admin.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001127s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001424s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000376s ]
+NOTIC: [8] Undefined variable: userinfo E:\wamp\www\Admin\Runtime\Cache\Home\55843b8195cd32862e5dfa640df6e51d.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013230s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013578s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000897s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000835s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001063s ]
+

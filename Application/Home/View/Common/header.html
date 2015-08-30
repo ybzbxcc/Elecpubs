@@ -1,0 +1,21 @@
+<header>
+	<div id="stripe"></div>
+	<nav id="navigation">
+		<div class="container">
+			<div id="navbtn" onclick="showNav()"><i class="fa fa-align-justify"></i></div>
+			<ul id="navul">
+				<li><a href="{:U('Index/index')}" data-nav="Index">首页</a></li>
+				<li><a href="{:U('Guestbook/index')}" data-nav="Guestbook">留言板</a></li>
+				<li><a href="{:U('Archive/index')}" data-nav="Archive">归档</a></li>
+				<li><a href="{:U('Download/index')}" data-nav="Download">下载</a></li>
+				<li class="clear"></li>
+			</ul>
+			<div id="searchform">
+				<form action="" method="post">
+					<input type="search" name="search">
+					<button id="searchbtn" class="fa fa-search"></button>
+				</form>
+			</div>
+		</div>
+	</nav>
+</header>

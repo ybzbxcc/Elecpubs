@@ -1,0 +1,34 @@
+<div id="sidebar">
+	<div class="panel" id="panelfixed"> 
+			<div class="panel-title"> 热门文章</div>
+			<div class="panel-body">
+				<?php foreach ($bloglist as $key => $value): ?>
+					<div class="panel-list">
+						<a href="{:U(setHref($value['label'], $value['id']))}">
+							<span class="panel-listleft">
+								<img src="<?php echo $value['img'] ?>">
+							</span>
+							<span class="panel-listright">
+								<?php echo $value['title']; ?>
+							</span>
+						</a>
+					</div>
+				<?php endforeach ?>
+			</div>
+	</div>
+
+	<div class="panel bg-elegence">
+		<div class="panel-title">
+			 标签
+		</div>
+		<div class="panel-body">
+			<div class="panel-tag">
+				<?php foreach ($tags as $key => $value): ?>
+					<a href="{:U(setHref($value['label'], $value['id']))}">
+						<?php echo $value['tagname']; ?>
+					</a>
+				<?php endforeach ?>
+			</div>
+		</div>
+	</div>
+</div>
