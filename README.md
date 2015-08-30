@@ -1,2 +1,0 @@
-# Elecpubs
-My blog
